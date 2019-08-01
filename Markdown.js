@@ -24,7 +24,7 @@ export class Markdown extends Component {
             <input type="text"  onChange={this.getPreview}></input>
             <h1>MarkdownOutput</h1>
             <div>
-           <p>{preview}</p>
+           <div>{preview}</div>
            </div>
             </div>
         )
